@@ -125,7 +125,7 @@ mình, nhưng lại để nó trôi qua ở bản nhóm.
 - [x] [15đ] Nhóm có so sánh No AI / Rule / Workflow / Agent — *đủ 4 mức, chọn Workflow, giải thích vì sao không chọn mức đơn giản hơn*
 - [x] [10đ] Nhóm có Go / Not Yet / No-Go + lý do rõ — *Not Yet, kèm pilot nhỏ nhất và điều kiện rollback*
 - [x] [10đ] Reflection này có vai trò thật + AI giúp/sai ở đâu + điều học được + nếu làm lại đổi gì
-- [ ] [6đ] Tôi tự giải thích được mạch problem → workflow → metric → boundary → độ phù hợp AI
+- [x] [6đ] Tôi tự giải thích được mạch problem → workflow → metric → boundary → độ phù hợp AI
 
 **Ba việc không được quên trước khi nộp:**
 1. Bấm giờ xác nhận 3 số baseline trong `01-individual-problem-scan/individual-report.md` (dòng scan 1, 4, 7)
