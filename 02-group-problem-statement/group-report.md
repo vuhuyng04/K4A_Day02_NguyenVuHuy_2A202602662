@@ -141,6 +141,8 @@ Tổng: **hơn 3 ngày** (self-report). Ô đỏ là bottleneck — xem mô tả
 | 9–10 | Researcher | Limitation map | Candidate gaps đã search phản chứng | **Bottleneck chính** | Limitation của một paper chưa đủ thành gap |
 | 11–12 | Researcher + giảng viên | Candidate gaps + hồ sơ nguồn lực | Gap shortlist có citation | Cuối mỗi vòng review | Human decision bắt buộc |
 
+> **Giới hạn của baseline (ghi rõ để không bị hiểu là bỏ sót):** nhóm chưa có time-log theo từng bước, chỉ có tổng hơn 3 ngày từ một self-report gần nhất. Vì vậy cột thời gian ở trên ghi tần suất thay vì số phút, và metric before/after phải dùng *số bước* cùng *số bước thủ công* làm proxy bên cạnh tổng thời gian. Đo thời gian từng bước là việc đầu tiên của pilot — xem mục 6.3.
+
 **Bottleneck chính:** Người dùng phải nối evidence từ nhiều paper để hình thành candidate gap, rồi search công trình mới nhằm bác bỏ chính candidate đó. Nếu gap còn tồn tại, người dùng tiếp tục đánh giá liệu mình có dữ liệu, compute, thời gian và kỹ năng phù hợp hay không.
 
 ### 5.2. Future workflow bản nhóm
