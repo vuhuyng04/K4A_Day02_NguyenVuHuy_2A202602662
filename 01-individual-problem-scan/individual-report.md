@@ -466,4 +466,4 @@ buộc phải tranh luận thật xem AI có cần thiết không, thay vì mặ
 - [x] Có 5+ problems + top 3 Cards đủ field *(10 problems, 3 cards)*
 - [x] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
 - [x] Đã chọn 1 card pitch + câu hỏi challenge
-- [ ] Đã bấm giờ xác nhận 3 số baseline (dòng 1, 4, 7) — **làm trước khi nộp**
+- [!] **Giới hạn đã biết:** 3 số baseline (dòng scan 1, 4, 7) hiện là ước lượng từ quan sát, chưa bấm giờ có hệ thống. Đã ghi rõ nhãn *(ước lượng)* ở mọi con số và nêu cách đo trong bảng ở cuối Phase 1, thay vì trình bày như số đã đo.

@@ -18,14 +18,14 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 | Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
 |---|---|---|
 | Scan cá nhân | Scan 10 problems từ đời sống cá nhân và các app đang dùng, đủ 4/4 lăng kính. Với mỗi dòng ghi rõ actor và chỗ lấy số, không dừng ở cảm giác "mất thời gian" | Có 10 candidate mang đi pitch thay vì mức tối thiểu 5; 3 dòng mạnh nhất được nâng thành Problem Card |
-| Pitch Problem Card | Đã chuẩn bị: chọn Card #1 (tìm lại quyết định trong nhóm chat), viết sẵn 2 câu tự challenge vào đúng điểm yếu của chính card mình. <!-- Sau Phase 3 bo sung: minh da pitch card nao, nhom phan ung ra sao --> | _(Phase 3)_ <!-- Card cua minh co vao shortlist khong? Neu khong thi vi ly do gi? Ghi chu: bien the cua card nay da vao shortlist #2 'Tim lai knowledge/context da nguon' --> |
+| Pitch Problem Card | Đưa 3 candidate vào nhóm: tìm quyết định đã chốt trong nhóm chat, hợp nhất chi tiêu/subscription, so sánh giá và review. Chọn Card #1 làm card chính, kèm 2 câu tự challenge vào điểm yếu của chính nó (đây là vấn đề công cụ hay vấn đề kỷ luật nhóm; metric nên đo tốc độ hay đo độ tin cậy) | Cả 3 candidate vào bảng 3.1 của bản nhóm (dòng 13-15). Card #1 được xếp vào **cluster A — Knowledge & evidence retrieval**, chính là cụm dẫn tới candidate cuối cùng. Biến thể của nó thành **shortlist #2** "Tìm lại knowledge/context đa nguồn" (29/35 điểm) |
 | Challenge bài của bạn khác | _(Phase 3)_ <!-- Minh da hoi ai, card nao, cau hoi NGUYEN VAN la gi? Chep tu pitch-challenge-log.md --> | _(Phase 3)_ <!-- Ban do da sua gi sau cau hoi cua minh - actor, bottleneck, metric, hay ha muc AI? --> |
 | Gom trùng / cluster | _(Phase 3)_ <!-- Minh de xuat gom cum nao voi cum nao? Nhin ra pattern chung gi ma nhom chua thay? Nhom da chot 4 cluster A-D --> | _(Phase 3)_ <!-- Cluster do co duoc giu khong? Cluster A la cum dan toi candidate duoc chon --> |
 | Chọn candidate problem | _(Phase 3)_ <!-- Minh bo phieu cho bai nao va vi sao? Co phan doi lua chon cua nhom o diem nao khong? --> | _(Phase 3)_ <!-- Nhom chot Literature Review & Research Gap Navigator, 34/35 diem --> |
-| Validation / research | _(Phase 4)_ <!-- Minh phong van ai, hoi may nguoi, hay tim nguon nao? Link cu the? LUU Y: nhom hien CHUA co interview/survey - day la cho de ghi diem --> | _(Phase 4)_ <!-- Ket qua co lam nhom SUA LAI problem/metric khong? Day la dieu kien cua bonus +4 --> |
-| Workflow nhóm | _(Phase 5)_ <!-- Minh ve buoc nao, chi ra bottleneck o dau, them fallback nao? --> | _(Phase 5)_ <!-- Phan nao cua workflow cuoi la do minh de xuat? --> |
+| Validation / research | Mở kiểm từng link trong bảng research của nhóm thay vì tin sẵn. Xác nhận số của Cochrane đúng nguyên văn (8 reviews, 56.728 records, screen 20-50% thu được 95% eligible), và Semantic Scholar / Crossref API đều có thật và mở | Phát hiện thêm một bằng chứng nhóm chưa nêu: tài liệu Crossref xác nhận có tích hợp nguồn Retraction Watch, nghĩa là bước "kiểm retraction" trong future workflow là khả thi bằng API mở chứ không phải giả định. Đã bổ sung vào cột bài học <br><br>**Còn thiếu:** nhóm chưa có interview hay survey theo yêu cầu Phase 4 — đây là chỗ tôi cần chủ động bù |
+| Workflow nhóm | Bản nhóm ban đầu chỉ có workflow dạng text. Tôi dựng thêm 2 sơ đồ Mermaid cho current/future, tô đỏ bottleneck ở bước 9-10, phân màu rõ bước nào Rule, bước nào AI, bước nào bắt buộc có người, và vẽ 2 nhánh fallback. Đồng thời phát hiện bảng before/after thiếu dòng "Bottleneck chính" so với template và bổ sung | Sơ đồ render trực tiếp trên GitHub nên người đọc thấy ngay điểm nghẽn thay vì phải đọc khối text. Cần đề xuất nhóm đưa 2 sơ đồ này vào bản master |
 | Problem Statement | _(Phase 5)_ <!-- Minh viet field nao - metric, boundary hay actor? Phan bien field nao cua ban khac? --> | _(Phase 5)_ <!-- Field do co duoc giu trong v1 khong? --> |
-| Rule / Workflow / Agent | _(Phase 6)_ <!-- Minh nghieng ve muc nao va lap luan gi? Co keo nhom xuong muc thap hon khong? --> | _(Phase 6)_ <!-- Nhom chot Workflow, khong chon Agent --> |
+| Rule / Workflow / Agent | Đối chiếu bảng so sánh 6.1 của nhóm với rubric và phát hiện **thiếu hẳn hàng "No AI"** — trong khi rubric đòi so sánh đủ 4 mức. Tôi viết bổ sung hàng này: Boolean search thủ công + snowballing + Zotero + literature matrix viết tay, nêu rõ khi nào nó đủ và vì sao vẫn không chọn | Bảng so sánh giờ đủ 4 mức. Hàng No AI còn có tác dụng thứ hai: nó chính là baseline để đo cải thiện và là đường rollback đã ghi ở mục 6.3 |
 | Decision | _(Phase 6)_ <!-- Minh nghieng Go / Not Yet / No-Go va vi bang chung nao? --> | _(Phase 6)_ <!-- Nhom chot Not Yet, kem pilot nho nhat va dieu kien rollback --> |
 
 > Ô ghi `_(Phase N)_` là phần điền sau khi trải qua phase đó. Mỗi ô có sẵn câu hỏi gợi ý dạng HTML comment — mở file ở chế độ sửa sẽ thấy, khi render trên GitHub thì ẩn.
@@ -33,8 +33,13 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
 ```text
-(Chỉ đúng MỘT chỗ trong bản nộp nhóm mà nếu không có mình thì nó đã khác đi.
-Một chỗ cụ thể có sức thuyết phục hơn ba câu chung chung.)
+Hàng "No AI / process fix" trong bảng so sánh 6.1.
+
+Bản nhóm ban đầu chỉ so sánh Rule / Workflow / Agent và bỏ qua hoàn toàn phương
+án không dùng AI, trong khi đó là một trong bốn mức rubric bắt buộc phải cân
+nhắc. Tôi đối chiếu với rubric, phát hiện thiếu, và viết bổ sung hàng đó. Nếu
+không có nó thì bài của nhóm rơi đúng vào lỗi mà lab cảnh báo ngay từ nguyên
+tắc số 4: mặc định chọn AI mà chưa chứng minh cách không-AI là không đủ.
 ```
 
 ---
@@ -48,8 +53,8 @@ Một chỗ cụ thể có sức thuyết phục hơn ba câu chung chung.)
 | Workflow | Dùng AI để chuyển workflow từ nháp sang ASCII + Mermaid cho 3 card | Vẽ nhanh, dễ sửa; sơ đồ Mermaid render được trên GitHub nên người đọc nhìn ra bottleneck ngay | Bản AI vẽ đầu tiên chỉ có các bước, thiếu chỗ đánh dấu con người kiểm tra và thiếu đường quay về khi AI sai | Tự thêm `human boundary` và nhánh `fallback` vào cả 3 future workflow, và ghi rõ ranh giới AI không được làm gì |
 | Research | Nhờ AI tìm nguồn kiểm chứng cho nhóm problem về chi tiêu / subscription | Tìm được nguồn có số liệu cụ thể về tỉ lệ người có subscription không dùng | Đa số kết quả tiếng Việt là bài SEO không dùng làm bằng chứng được; một nguồn AI đưa ra (con số "nhân viên mất 1.8-2.5h/ngày tìm thông tin") thực ra đang bị truy nguồn và nghi ngờ | Chỉ giữ nguồn nào mở link kiểm được, và ghi rõ đó là dữ liệu thị trường Mỹ nên chỉ coi là tín hiệu tham khảo, không phải baseline. Giữ lại chính bài phản bác để dùng làm ví dụ về số liệu không nên tin |
 | Problem Statement | _(Phase 5)_ | | | | <!-- Co nho AI phan bien 6 field khong? AI chi ra field nao mo ho? AI co tu viet lai PS thay nhom khong? Nhom sua field nao bang lap luan cua minh? -->
-| Rule / Workflow / Agent | _(Phase 6)_ | | | | <!-- Co nho AI phan bien lua chon muc khong? AI chi ra rui ro nao nhom chua nghi toi? AI co day nhom len Agent khong? -->
-| Decision | _(Phase 6)_ | | | | <!-- Co nho AI soi 6 cau hoi gate khong? AI co ket luan thay nhom khong? Nhom tu chot dua tren bang chung nao? -->
+| Rule / Workflow / Agent | Nhờ AI đối chiếu bảng so sánh 6.1 của nhóm với từng dòng mô tả trong rubric | Phát hiện thiếu hàng No AI — lỗi tôi đọc lướt vài lần không thấy vì bảng trông đã đầy đủ | AI chỉ nói "thiếu hàng No AI", không tự biết phương án không-AI cho bài literature review là gì | Tự viết nội dung hàng đó dựa trên chính cách tôi từng làm review thủ công: Boolean search, snowballing, Zotero, matrix viết tay. Và tự quyết định đặt nó thành baseline đo cải thiện thay vì chỉ là một dòng cho đủ |
+| Decision | Không dùng AI để chốt. Chỉ nhờ AI mở từng link nguồn để kiểm số liệu trước khi tin vào lập luận dẫn tới quyết định | Xác minh được nguồn Cochrane khớp nguyên văn, nên phần bằng chứng của quyết định đứng vững | Không có — phần này AI chỉ làm việc tra cứu | Quyết định Not Yet là của nhóm, dựa trên việc evidence định lượng mới có một case. Tôi đồng ý vì nếu Go ngay thì rủi ro bỏ sót paper và suy diễn novelty chưa có cách đo |
 
 > Nếu phase nào không dùng AI, ghi `Không dùng` và vì sao tự làm.
 >
@@ -92,7 +97,7 @@ Không dùng AI viết thay phần này.)
 ## 4. Tự kiểm cuối bài (check trước khi nộp repo)
 
 - [x] [12đ] Cá nhân có 5+ problems + top 3 Problem Cards — *10 problems, 4/4 lăng kính, 3 card đủ field + workflow trước/sau (ASCII + Mermaid)*
-- [ ] [12đ] Tôi đã pitch rõ + challenge nhóm đúng trọng tâm (ghi ở bảng mục 1)
+- [~] [12đ] Tôi đã đưa 3 candidate vào bản nhóm và đóng góp 2 chỗ sửa vào artifact cuối (ghi ở bảng mục 1) — *phần challenge trực tiếp còn thiếu vì nhóm hội tụ async qua tài liệu, không có phiên pitch*
 - [x] Nhóm có nhật ký hội tụ từ candidates về 1 bài — *18 candidates → 4 cluster → 3 shortlist → 1*
 - [x] [15đ] Nhóm có workflow trước/sau — *12 bước current → 11 bước future, ASCII + Mermaid, có bottleneck/boundary/fallback*
 - [x] [20đ] Nhóm có PS v0/v1 với metric + boundary rõ — *metric có trước/sau/cách đo; boundary nói rõ không làm gì*
