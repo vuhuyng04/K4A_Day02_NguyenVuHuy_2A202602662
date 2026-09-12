@@ -2,6 +2,22 @@
 
 > Từ vấn đề thật quanh mình → workflow rõ → Problem Statement đủ chặt → chọn Rule / Workflow / Agent → quyết định Go / Not Yet / No-Go.
 
+---
+
+## Bài nộp — Nguyễn Vũ Huy · 2A202602662
+
+| Phần | File | Nội dung |
+|---|---|---|
+| 01 · Individual Problem Scan | [individual-report.md](01-individual-problem-scan/individual-report.md) | 10 problems, đủ 4/4 lăng kính · top 3 Problem Card · workflow trước/sau (ASCII + Mermaid) |
+| 02 · Group Problem Statement | [group-report.md](02-group-problem-statement/group-report.md) | Literature Review & Research Gap Navigator · so sánh No AI/Rule/Workflow/Agent · chọn **Workflow** · quyết định **Not Yet** |
+| 03 · Individual Reflection | [reflection.md](03-individual-reflection/reflection.md) | Vai trò trong nhóm · bảng dùng AI theo từng phase · reflection cá nhân |
+
+**Nhóm:** Hà Mạnh Tuân · Đào Ngọc Bình Thiên · Nguyễn Hải Long · Đỗ Thái Sơn · Nguyễn Vũ Huy · Nguyễn Nguyên Phong
+
+**Candidate problem nhóm chốt:** Literature Review & Research Gap Navigator — hỗ trợ người làm nghiên cứu tìm và kiểm chứng paper uy tín, lập evidence map, phát hiện candidate research gaps và lọc gap phù hợp với dữ liệu, compute, thời gian, kỹ năng hiện có.
+
+---
+
 ## Tài liệu trong folder này
 
 Folder này chỉ giữ các file cần thiết:
