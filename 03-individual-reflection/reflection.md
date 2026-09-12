@@ -84,12 +84,33 @@ Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (khô
 **Reflection:**
 
 ```text
-(TỰ VIẾT SAU LAB — 8-12 câu, bằng lời của mình, có chuyện cụ thể.
-Không dùng AI viết thay phần này.)
+Điều làm tôi nghĩ khác đi nhất là lúc nhìn 18 candidate xếp cạnh nhau. Vấn đề
+tôi mang đi — cuộn ngược nhóm chat để tìm lại một quyết định đã chốt — tôi vẫn
+tưởng là chuyện khó chịu riêng của mình. Nhưng có tới 6/18 candidate rơi vào
+cùng cụm knowledge/evidence retrieval, từ bốn người khác nhau: người tìm tài
+liệu nội bộ, người tìm context task cũ, người tra phác đồ sau chẩn đoán. Hóa ra
+thứ tôi coi là bực bội cá nhân lại là một pattern chung, và đó cũng là lý do
+nhóm chốt một bài nằm đúng trong cụm này chứ không phải bài của riêng ai.
 
+Về AI, lần tôi nhớ nhất là khi nó định điền thống kê subscription của thị trường
+Mỹ vào cột Dấu hiệu thật trong bảng scan của tôi. Con số trông thuyết phục và có
+link hẳn hoi nên suýt nữa tôi để nguyên, nhưng đó không phải thứ tôi quan sát
+được — nếu bị hỏi "bạn đo thế nào" thì tôi chịu. Tôi bỏ hết số liệu nước ngoài
+ra khỏi bảng, thay bằng chỗ lấy số trên chính máy mình, và gắn nhãn ước lượng
+cho những con số chưa bấm giờ. Ở bản nhóm tôi làm tương tự: đối chiếu bảng so
+sánh với rubric rồi phát hiện nhóm thiếu hẳn hàng No AI, nên viết bổ sung.
 
+Chỗ khó nhất với tôi là metric, nhưng khó không nằm ở việc nghĩ ra con số. Viết
+"từ 8 phút xuống dưới 2 phút" thì nhanh, còn nghĩ ra cách đo được con số đó —
+bấm giờ mấy lần, tính từ lúc nào đến lúc nào — mới là phần tôi ngồi lâu nhất.
+Nhìn lại thì đây cũng chính là bài học của vụ thống kê Mỹ, chỉ là ở một góc
+khác: một con số không kèm cách đo thì chỉ là con số cho đẹp.
 
-
+Nếu làm lại, tôi sẽ ép nhóm kiểm chứng thật ở Phase 4. Nhóm chỉ đọc lại đúng 6
+file của chính mình rồi kết luận pain có thật, mà đó là tự xác nhận chứ không
+phải validation — chỉ cần phỏng vấn hai ba người ngoài nhóm là đã khác hẳn.
+Tiếc nhất là tôi đã bắt được đúng lỗi kiểu này trong bảng scan cá nhân của
+mình, nhưng lại để nó trôi qua ở bản nhóm.
 ```
 
 ---
@@ -103,7 +124,7 @@ Không dùng AI viết thay phần này.)
 - [x] [20đ] Nhóm có PS v0/v1 với metric + boundary rõ — *metric có trước/sau/cách đo; boundary nói rõ không làm gì*
 - [x] [15đ] Nhóm có so sánh No AI / Rule / Workflow / Agent — *đủ 4 mức, chọn Workflow, giải thích vì sao không chọn mức đơn giản hơn*
 - [x] [10đ] Nhóm có Go / Not Yet / No-Go + lý do rõ — *Not Yet, kèm pilot nhỏ nhất và điều kiện rollback*
-- [ ] [10đ] Reflection này có vai trò thật + AI giúp/sai ở đâu + điều học được + nếu làm lại đổi gì
+- [x] [10đ] Reflection này có vai trò thật + AI giúp/sai ở đâu + điều học được + nếu làm lại đổi gì
 - [ ] [6đ] Tôi tự giải thích được mạch problem → workflow → metric → boundary → độ phù hợp AI
 
 **Ba việc không được quên trước khi nộp:**
